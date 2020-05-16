@@ -67,7 +67,7 @@ export default class WeatherClass extends Component {
     }
 
     getWeather = async (props) => {
-        await fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${props.match.params.city},${props.match.params.country}&appid=${API_key}`)
+        await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${props.match.params.city},${props.match.params.country}&appid=${API_key}`)
             .then(response => response.json())
             .then(json => {
                 // console.log('json', json);
@@ -110,7 +110,7 @@ export default class WeatherClass extends Component {
         let icon = result.weather[0].weather[0].icon;
         let main = result.weather[0].weather[0].main;
         return (
-            <img src={`http://openweathermap.org/img/w/${icon}.png`} alt={main} />
+            <img src={`https://openweathermap.org/img/w/${icon}.png`} alt={main} />
         );
     }
     minmaxTemp = (result) => {
