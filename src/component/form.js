@@ -35,12 +35,12 @@ class Form extends Component {
                     <div className="row justify-content-md-center" >
                         <div className="col-md-3  py-1 ">
                             <input type="text" className="form-control" name="city" 
-                            autoComplete="off" placeholder="City" 
+                            autoComplete="off" placeholder="Please Enter City" 
                             onChange={this.handleGetCity} />
                         </div>
                         <div className="col-md-3 py-1 ">
                             <input type="text" className="form-control" name="country" 
-                            autoComplete="off" placeholder="Country" 
+                            autoComplete="off" placeholder="Please Enter Country" 
                             onChange={this.handleGetCountry} />
                         </div>
                         <div className="col-md-2 mt-md-0 py-1 text-md-center">
