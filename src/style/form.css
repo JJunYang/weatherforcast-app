@@ -1,0 +1,34 @@
+form{
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+form input[name="city"],
+form input[name="country"]{
+    background-color: transparent;
+    color: black;
+    border: 0;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
+
+form input:focus{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+form input,.container::-webkit-input-placeholder{
+    color: black !important;
+}
+
+
+form input[name="phoneNumber"],
+form input[name="zipcode"],
+form input[name="emailId"],
+form input[name="lastName"],
+form input[name="firstName"]{
+    background-color: transparent;
+    color: black;
+    border: 0;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
