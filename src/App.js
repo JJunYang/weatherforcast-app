@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Form from './component/form';
 import WeatherClass from './component/weatherClass';
 import WeatherItem from './component/weatherItem';
-import 'dotenv'
 
 function App() {
   console.log(process.env);
