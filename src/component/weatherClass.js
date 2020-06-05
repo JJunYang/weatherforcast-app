@@ -3,7 +3,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Link } from 'react-router-dom'
 
-const API_key = require("../../config/keys").API_key;
+const API_key = require("../config/keys").API_key;
 
 export default class WeatherClass extends Component {
     constructor(props) {
