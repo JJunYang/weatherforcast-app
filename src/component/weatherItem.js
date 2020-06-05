@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import { Link } from 'react-router-dom'
 
-const API_key = require("../config/keys").API_key;
+const API_key = process.env.REACT_APP_API_KEY;
 export default class WeatherItem extends Component {
     constructor(props) {
         super(props);
