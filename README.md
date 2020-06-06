@@ -17,3 +17,22 @@ This project fetched weather data from [openweathermap.org](https://openweatherm
 `api.openweathermap.org/data/2.5/forecast?q={city name},{state},{country code}&appid={your api key}`
 
 You can search weather forecast for 5 days with data every 3 hours by city name and country.
+
+## Usage
+
+### Step1
+
+Clone repository from [https://github.com/jjyang1108/weatherforcast-app](https://github.com/jjyang1108/weatherforcast-app)
+
+### Step2
+
+```bash
+npm install
+```
+
+### Step3
+Create `.env` file in the root directory of project. Add api_key variable in the form of `REACT_APP_API_KEY={YOUR_APIKEY}`.
+
+### Step4
+
+run project with `npm start`.
